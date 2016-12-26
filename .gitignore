@@ -8,6 +8,11 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+bin/
+obj/
+*.userpref*
+*.user
+.vs/
 env/
 build/
 develop-eggs/

@@ -1,0 +1,23 @@
+﻿<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:HelloWorld"
+        Title="MainWindow" Height="342.537" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0"
+            Text="qasdasdasd" FontSize="80" FontFamily="Times New Roman" FontStyle="Italic" Foreground="Aqua" 
+            TextWrapping="WrapWithOverflow"/>
+        
+        <Button Grid.Row="1"    Grid.Column="1" 
+                Content="Click me" Click="Button_Click"/>
+    </Grid>
+</Window>
